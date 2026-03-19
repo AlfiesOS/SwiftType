@@ -11,7 +11,7 @@ export const BASE_CONFIGURATION: Configuration = {
     responseSlowdownMs: 0,
   },
   results: {
-    savingEnabled: false,
+    savingEnabled: true,
     objectHashCheckEnabled: false,
     filterPresets: {
       enabled: false,
@@ -43,7 +43,7 @@ export const BASE_CONFIGURATION: Configuration = {
     apeKeySaltRounds: 5,
   },
   users: {
-    signUp: false,
+    signUp: true,
     lastHashesCheck: {
       enabled: false,
       maxHashes: 0,
@@ -57,7 +57,7 @@ export const BASE_CONFIGURATION: Configuration = {
       maxHours: 1,
     },
     profiles: {
-      enabled: false,
+      enabled: true,
     },
     xp: {
       enabled: false,
