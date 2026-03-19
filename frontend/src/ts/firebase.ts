@@ -54,7 +54,7 @@ export async function init(callback: ReadyCallback): Promise<void> {
     let firebaseConfig: FirebaseOptions | null;
 
     firebaseConfig = (
-      (await import("./constants/firebase-config")) as {
+      (await import("./constants/firebase-config-live")) as {
         firebaseConfig: FirebaseOptions;
       }
     ).firebaseConfig;
